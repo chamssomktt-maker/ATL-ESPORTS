@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  }
+
+  html {
+    background: #080808;
+    }
+
+    body {
+      margin: 0;
+        min-width: 320px;
+          min-height: 100vh;
+            font-family: 'Cairo', sans-serif;
+              background: #080808;
+                color: #fff;
+                }
+
+                button {
+                  font-family: inherit;
+                  }
+
+                  ::selection {
+                    background: #d71920;
+                      color: white;
+                      }
+
+                      #root {
+                        min-height: 100vh;
+                        }
+
+                        @media (max-width: 480px) {
+                          h1 {
+                              font-size: 25px;
+                                }
+
+                                  h2 {
+                                      font-size: 20px;
+                                        }
+                                        }
+                                        
